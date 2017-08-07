@@ -44,7 +44,7 @@ namespace AllDelegates
         // called if the processing of the observable sequence throws exception
         static void Oops(Exception exception)
         {
-            Console.WriteLine(@"Oops ""{0}""", exception.Message);
+            Console.WriteLine(@"Oops I did it again""{0}""", exception.Message);
         }
         // called after all values in the observable sequence have been processed
         static void Done()
