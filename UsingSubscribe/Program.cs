@@ -31,7 +31,7 @@ namespace UsingSubscribe
         static void Main(string[] args)
         {
             // make an array of numbers
-            var numbers = new int[] {1, 2, 3};
+            var numbers = new int[] {1, 2, 3,4,5};
             // make an observeable sequence out of those numbers
             var observable = numbers.ToObservable();
             // use the ObservableExtensions.Subscribe to start the callbacks
